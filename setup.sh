@@ -10,6 +10,8 @@ kubectl get nodes
 # Enable ingress
 minikube addons enable ingress
 
+kubectl delete -A ValidatingWebhookConfiguration ingress-nginx-admission
+
 # Deploy
 kubectl apply -f webserver.yaml
 
