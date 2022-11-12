@@ -4,7 +4,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v
+      - uses: actions/checkout@v2
       - name: Login to Docker Hub
         uses: docker/login-action@v1
         with:
@@ -18,4 +18,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: amanmahajan26/flask-app:latest
+          tags: achin16/flask-app:latest
