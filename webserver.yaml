@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: achin16/flask-app
+          image: achin16/flask-app:latest
           livenessProbe:
             httpGet:
               path: /healthcheck
