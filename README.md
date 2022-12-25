@@ -1,5 +1,5 @@
 [![Kubernetes Web](https://github.com/ajaychinthapalli/k8s-web/actions/workflows/main.yaml/badge.svg)](https://github.com/ajaychinthapalli/k8s-web/actions/workflows/main.yaml)
-# k8s-web
+# k8s-web (Work in progress)
 ## Steps for setup
 ### Required packages
 - minikube
