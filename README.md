@@ -1,4 +1,4 @@
-# assr-web-k8s
+# k8s-web
 ## Steps for setup
 ### Required packages
 - minikube

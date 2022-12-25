@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Start a local cluster
+# Start a local minikube cluster
 minikube start
 
 # Verify
