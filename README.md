@@ -59,6 +59,7 @@ ingress.networking.k8s.io/webserver created
 On `workflow dispatch` (Event trigger workflow), GitHub workflow updates the image in docker hub.  
 To update the running pods, run:
 ```text
+@ajaychinthapalli ➜ /workspaces/k8s-web (main ✗) $ chmod +x deploy.sh
 @ajaychinthapalli ➜ /workspaces/k8s-web (main ✗) $ ./deploy.sh
 deployment.apps/webserver restarted
 Waiting for deployment spec update to be observed...
